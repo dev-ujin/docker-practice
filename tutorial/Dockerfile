@@ -1,8 +1,8 @@
 # Base image
-FROM baseImage
+FROM alpine
 
 # Download files you need additionally
-RUN command
+# RUN command
 
 # Instructions when you start container
-CMD ["executable"]
+CMD ["echo", "hello"]
